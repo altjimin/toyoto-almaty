@@ -1,0 +1,111 @@
+body{
+    background-image:url("http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: auto;
+    width: 600px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.shapka{
+    min-height: 30px;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    background-color:grey;
+    /*padding-top: 20px;*/
+}
+
+.header__menu{
+    margin: 0px 0px 0px 150px
+
+
+}
+.menu__link{
+    line-height: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+
+
+}
+a:hover {
+background-color: red;
+color: white;
+}
+
+.header__shapka{
+
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::-webkit-input-placeholder {
+    color: #B6C0A5;
+    font-style: italic;
+    background: #E0EFCA;
+  }
+  input:-moz-placeholder {
+    color: #B6C0A5;
+    font-style: italic;
+    background: #E0EFCA;
+  }
+  input:-ms-input-placeholder {
+    color: #B6C0A5;
+    font-style: italic;
+    background: #E0EFCA;
+  }
+
+.logo{
+    display: flex;
+
+}
+.form{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 10px 10px 10px 45px;
+
+}
+
+.toyotaZhazu{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.cost{
+    background-color: white;
+    text-align: center;
+}
+
+
+.cars{
+    border: 5px solid red;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.mashinalar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.sony{
+    height: 40px;
+    background-color: black;
+}
+.sony p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+
+    color: white;
+}
